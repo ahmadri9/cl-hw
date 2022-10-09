@@ -1,47 +1,170 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>table</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top six English clubs</title>
+
+<style>
+    
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      line-height: 150%;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: lightblue;
+    }
+
+    .header h1 {
+      color: #222222;
+      font-size: 30px;
+      font-family: "Pacifico", cursive;
+    }
+
+    .header .social a {
+      padding: 0 5px;
+      color: #222222;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #29292a;
+      color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      padding: 8px;
+    }
+
+    tr:nth-child(1) {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 55px 20px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+  </style>
 </head>
-
 <body>
+<div class="container">
+<header class="header">
+<h1>Top six English clubs</h1>
 
+<div class="social">
 
-   <table border="1">
+</div>
+</header>
+<aside class="left">
+<img src="/imeg/cl.jfif" width="160px" alt="Top6" />
+<ul>
+<li><a class="active" href="#home">Home</a></li>
+<li><a href="#career">manchester City</a></li>
+<li><a href="#contact">manchester united</a></li>
+<li><a href="#about">chelsea</a></li>
+<li><a href="#home">tottenham</a></li>
+<li><a href="#career">arsenal</a></li>
+    <li><a href="#career">liverpool</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#about">About</a></li>
+</ul>
+<br><br>
+<p>"some information "<br><br>
+</aside>
+<main class="content">
+<h2>Who are the Premier League 'big six'? Top  English clubs & nickname explained</h2>
 
-		<caption>احمد راجح الحربي </caption> 
+<p>The reason is simple: it is because they are the most consistently successful teams in the division. Not only that, but they boast the biggest stadiums, broadest fanbases and, as a result, the healthiest bank accounts.</p>
+<hr><br>
+<h2>Club information</h2>
+<table>
+<tr>
+<th>Championships</th>
+<th>club stadium </th>
+<th>Historic scorer</th>
+</tr>
+<tr>
+<td><i class="fas fa-broom"></i><img  src="/imeg/ch.jpg" width="260px" alt="Top6" /></td>
+<td><i class="fas fa-archive"><img src="/imeg/fi.jfif" width="260px" alt="Top6" /></i></td>
+<td><i class="fas fa-trailer"></i><img src="/imeg/pl.jfif" width="260px" alt="Top6" /></td>
+</tr>
+<tr>
+<td>
+   The number of tournaments</td>
+<td>Information about the stadium</td>
+<td>Information about the player</td>
+</tr>
 
- 	<tr>
-		<td style="background-color: #ffccff">Logo</td>
-		<td colspan="3" style="background-color: #ffffcc" >Top menu</td>
+</table>
 
- 	 </tr>
+</main>
 
-
-	<tr>
-		<td rowspan="2" style="background-color: #ffffcc">side menu</td>
-		<td style="background-color:#b3ecff">world news</td>
-		<td style="background-color:#b3ecff">Finacial</td>
-		<td rowspan="2" style="background-color: #ffccff">list of Ads</td>
-	 </tr>
-
-	<tr>
-
-		<td style="background-color:#b3ecff">Technology </td>
-		<td style="background-color:#b3ecff">sports</td>
-
-	 </tr>
-
-	<tr>
-		<td colspan="4" style="background-color:#b3b3b3">Footer</td>
-
-	 </tr>
-
-    </table>
-<img src="imges/T.png" alt="hi">
+</div>
+    <br>
+    <footer class="footer">&copy; Copyright premierleague.com</footer>
 </body>
-
-
-
 </html>
