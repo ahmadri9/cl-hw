@@ -76,6 +76,7 @@
     th {
       border: 1px solid #dddddd;
       padding: 8px;
+        max-width: 50px;
     }
 
     tr:nth-child(1) {
